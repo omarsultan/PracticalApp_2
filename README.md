@@ -49,6 +49,19 @@ Once we encoded catagorical data, the data set got cumbersome so made some educa
 ## Evaluation
 Between the consistency of significant feautures and the close error rates, to some degree, it probably does not make much difference which model is used--they would probably perform in a similar manner. While a bit counter-intuitive, it might not be a bad idea to run a coupel of predicions by the sales people. While the owner wants a more empricl approach, it would be a mistake to ignore the sales people's experience and intuition to help validate the model.
 
+##### OLS model significant features
+![OLS model significant featurest](https://github.com/omarsultan/PracticalApp_2/blob/main/images/ols.png)
+
+##### Ridge model significant features
+![Ridge model significant features](https://github.com/omarsultan/PracticalApp_2/blob/main/images/ridge.png)
+
+##### Lasso model significant features
+![Lasso model significang features](https://github.com/omarsultan/PracticalApp_2/blob/main/images/lasso.png)
+
+##### Comparative model error rates
+![Comparative model error rates](https://github.com/omarsultan/PracticalApp_2/blob/main/images/error.png)
+
+
 ## Deployment
 We will take the significant features and coefficients we discoverd through our modeling and codify them in something simple and familar like a spreadsheet. So, all the sales people need to do is plug in the info on the features we have identifeid and it will spit out target price. We should make sure the dealership understand the uncertainty in the price prediction. Maybe this is also something that can be handled in the spreadsheet where it returns a target price +/- the uncertainty in the prediction.
 

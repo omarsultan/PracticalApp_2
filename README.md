@@ -30,6 +30,15 @@ There are a number of steps to take to prepare the data:
 ##### The clean dataset
 ![Clean data](https://github.com/omarsultan/PracticalApp_2/blob/main/images/clean.png)
 
+##### Dataset sample
+![Sample of the dataset](https://github.com/omarsultan/PracticalApp_2/blob/main/images/sample.png)
+
+##### Histogra of numerica features
+![Histogra of numeric features](https://github.com/omarsultan/PracticalApp_2/blob/main/images/hist.png)
+
+##### df.desribe
+![Output of df.descrive](https://github.com/omarsultan/PracticalApp_2/blob/main/images/describe.png)
+
 *The cleaning process is detailed in the "Clean" Jupyter Notebook*
 
 ## Modeling
